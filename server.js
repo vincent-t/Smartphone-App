@@ -1,5 +1,6 @@
-// npm install pushstate-server
-// nodejs server.js
+// install: npm install pushstate-server
+// start: nodejs server.js or ./startserver.sh
+// adress: http://localhost:8080/
 
 // Defines
 const PORT=8080;
@@ -10,4 +11,3 @@ var server = require('pushstate-server');
 
 // Start server
 server.start({ port: PORT, directory: DIR })
-
